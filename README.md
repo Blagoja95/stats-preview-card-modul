@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component
 
-# Live site url
+## Live site url
 https://blagoja95.github.io/stats-preview-card-modul/
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
 
