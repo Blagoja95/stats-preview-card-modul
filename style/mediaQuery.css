@@ -1,0 +1,51 @@
+@media (max-width: 375px){
+    .center {
+        width: 34rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right{
+        background-image: url('../images/image-header-mobile.jpg');
+        background-size: 35rem;
+        order: -1;
+        padding: 15rem;
+        border-radius: 8px 8px 0 0 ;
+    }
+
+    .right::after {
+        width: 34.1rem;
+        height: 26rem;
+        top: 43%;
+        border-radius: 8px 8px 0 0 ;
+    }
+
+    .left{
+        order: 0;
+        background-color: hsl(244, 38%, 16%);
+        border-radius: 0 0 8px 8px;
+        gap: 4rem;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+        gap: 2rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .attribution {
+        margin-top: 42rem;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+   .message {
+       width: 90%;
+   }
+
+}
